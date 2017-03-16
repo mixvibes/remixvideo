@@ -14,7 +14,7 @@ Remixvideo supports glsl shaders as generative media. It features:
   
   Be sure to check [example folder](https://github.com/mixvibes/remixvideo-generators/tree/master/examples), it demonstrate some basic generator syntaxes.
   
-## shader specifications
+## Shader specifications
 
 Entry point is "main"
 ```
