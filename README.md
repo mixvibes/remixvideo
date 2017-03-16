@@ -36,7 +36,7 @@ void main( void )
 
 ### From shadertoy
 
-First add pragma to install a shadertoy like sandbox:
+First add pragma to install a shadertoy-like sandbox:
 ```
 #pragma shadertoy;
 ```
