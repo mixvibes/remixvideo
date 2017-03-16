@@ -12,6 +12,8 @@ Remixvideo supports glsl shaders as generative media. It features:
   * supports only fragment shaders
   * supports only single pass
   
+  Be sure to check [example folder](https://github.com/mixvibes/remixvideo-generators/tree/master/examples), it demonstrate some basic generator syntaxes.
+  
 ## shader specifications
 
 Entry point is "main"
@@ -45,7 +47,7 @@ If your shader uses an audio input (fft + wave), declare it:
 #pragma input iChannel0 audio
 ```
 
-and/or predefined textures:
+and/or predefined textures ([check shadertoy texture name reference](https://raw.githubusercontent.com/mixvibes/remixvideo-generators/master/shadertoy_textures.png)):
 ```
 #pragma input iChannel0 %builtin%/tex04.jpg
 ```
