@@ -25,12 +25,14 @@ void main( void )
 
 ## Avaiblables uniforms
 
- * time
- * resolution
- * audioLevelHistory
- * audioLevel
- * barClock
- * cycleClock
+```
+uniform float   time;
+uniform vec3    resolution;
+uniform float   audioLevelHistory[512];
+uniform float   audioLevel;
+uniform float   barClock;
+uniform float   cycleClock; 
+```
  
 ## Porting shaders 
 
