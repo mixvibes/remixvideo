@@ -27,7 +27,7 @@ void main( void )
 ### Pragmas
 
 ```
-#pragma autoreload; // (availlable in version > 1.1.3)
+#pragma autoreload; // (available in version > 1.1.3)
 ```
 
 ### Avaiblables uniforms
