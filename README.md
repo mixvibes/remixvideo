@@ -7,8 +7,8 @@ Remixvideo supports glsl shaders as generative media. It features:
  * macros to support [shadertoy](https://www.shadertoy.com/) and [glslsandbox](http://glslsandbox.com/) shaders
  
  Known issues:
-  * images are flipped along y axis (fixed in upcomming version)
-  * audio FFT is not working properly (fixed in upcomming version)   
+  * images are flipped along y axis (fixed in version > 1.1.3)
+  * audio FFT is not working properly (fixed in version > 1.1.3)
   * supports only fragment shaders
   * supports only single pass
   
@@ -22,8 +22,15 @@ void main( void )
 {
 }
 ```
+## Specificities
 
-## Avaiblables uniforms
+### Pragmas
+
+```
+#pragma autoreload; // (availlable in version > 1.1.3)
+```
+
+### Avaiblables uniforms
 
 ```
 uniform float   time;
