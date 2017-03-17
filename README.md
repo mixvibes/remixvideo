@@ -64,3 +64,11 @@ and/or predefined textures ([check shadertoy texture name reference](https://raw
 ### From glslsandbox
 
 glslsandbox shaders are nativelly supported.
+
+# Recommended readings
+ * https://www.shadertoy.com/
+ * http://glslsandbox.com/
+ * https://thebookofshaders.com/
+ * https://www.interactiveshaderformat.com/
+ * 
+ 
