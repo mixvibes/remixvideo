@@ -85,7 +85,7 @@ On macOS:
  * Create this folder hierarchy: Fxs\Video 
  * Place your shader in C:\Users\XXX\AppData\Roaming\Mixvibes\Fxs\Video
 
-Fx shaders uniforms (check [example FX](https://github.com/mixvibes/remixvideo/blob/master/examples/FX-RED%20ALERT.glsl):
+Fx shaders uniforms (check [example FX](https://github.com/mixvibes/remixvideo/blob/master/examples/FX-RED%20ALERT.glsl)):
  * uniform sampler2D textureA; // input texture
  * uniform float intensity; // X pad
  * uniform float parameter; // Y pad
