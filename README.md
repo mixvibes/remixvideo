@@ -7,8 +7,8 @@ Remixvideo supports glsl shaders as generative media. It features:
  * macros to support [shadertoy](https://www.shadertoy.com/) and [glslsandbox](http://glslsandbox.com/) shaders
  
  Known issues:
-  * images are flipped along y axis (fixed in version > 1.1.3)
-  * audio FFT is not working properly (fixed in version > 1.1.3)
+  * images are flipped along y axis (fixed in version > 1.1)
+  * audio FFT is not working properly (fixed in version > 1.1)
   * supports only fragment shaders
   * supports only single pass
   
@@ -72,7 +72,7 @@ glslsandbox shaders are nativelly supported.
  * https://www.interactiveshaderformat.com/
  
 # TIPS
-## Add your own FX
+## Add your own FX (version > 1.1)
 You can add your own FX. 
  * Go to /Users/XXX/Library/Group Containers/K22R73ZZ3Q.com.mixvibes.remixvideo
  * Create this folder hierarchy: Fxs/Video 
