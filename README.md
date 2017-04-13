@@ -70,5 +70,19 @@ glslsandbox shaders are nativelly supported.
  * http://glslsandbox.com/
  * https://thebookofshaders.com/
  * https://www.interactiveshaderformat.com/
- * 
+ 
+# TIPS
+## Add your own FX
+You can add your own FX. 
+ * Go to /Users/XXX/Library/Group Containers/K22R73ZZ3Q.com.mixvibes.remixvideo
+ * Create this folder hierarchy: Fxs/Video 
+ * Place your shader in /Users/XXX/Library/Group Containers/K22R73ZZ3Q.com.mixvibes.remixvideo/Fxs
+
+Fx shaders uniforms:
+ * uniform sampler2D textureA; // input texture
+ * uniform float intensity; // X pad
+ * uniform float parameter; // Y pad
+ * uniform float audioEnergy;
+ * uniform float barClock;
+ * uniform float cycleClock;
  
