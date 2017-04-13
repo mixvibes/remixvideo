@@ -74,6 +74,7 @@ glslsandbox shaders are nativelly supported.
 # TIPS
 ## Add your own FX (version > 1.1)
 You can add your own FX. 
+
 On macOS:
  * Go to /Users/XXX/Library/Group Containers/K22R73ZZ3Q.com.mixvibes.remixvideo
  * Create this folder hierarchy: Fxs/Video 
@@ -84,7 +85,7 @@ On macOS:
  * Create this folder hierarchy: Fxs\Video 
  * Place your shader in C:\Users\XXX\AppData\Roaming\Mixvibes\Fxs\Video
 
-Fx shaders uniforms:
+Fx shaders uniforms (check [example FX](https://github.com/mixvibes/remixvideo/blob/master/examples/FX-RED%20ALERT.glsl):
  * uniform sampler2D textureA; // input texture
  * uniform float intensity; // X pad
  * uniform float parameter; // Y pad
