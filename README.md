@@ -68,11 +68,13 @@ glslsandbox shaders are nativelly supported.
  
 # Interactive Shader Format support (version > 1.1.x)
 A subset of ISF support is implemented with restrictions:
- * only the first 3 parameters are displayed (but you can declare as much as you want)
- * only float parameters are supported
+ * only the first 4 parameters are displayed (but you can declare as much as you want)
+ * only float/bool parameters are supported
  * IMG_PIXEL and IMG_NORM_PIXEL are supported
  * supported uniforms: PASSINDEX, RENDERSIZE, TIME, TIMEDELTA, DATE, FRAMEINDEX
  * isf_FragNormCoord convenience variable is supported
+ 
+Check example file: https://github.com/mixvibes/remixvideo/blob/master/examples/interactiveshaderformat_stripes.glsl;
 
 # Recommended readings
  * https://www.shadertoy.com/
