@@ -5,6 +5,7 @@ Remixvideo supports glsl shaders as generative media. It features:
  * GLSL fragment shader support
  * some audio related uniforms to react to audio features
  * macros to support [shadertoy](https://www.shadertoy.com/) and [glslsandbox](http://glslsandbox.com/) shaders
+ * Basic parameter support based on [ISF specification](http://interactiveshaderformat.com) 
  
  Known issues:
   * images are flipped along y axis (fixed in version > 1.1.x)
@@ -64,6 +65,14 @@ and/or predefined textures ([check shadertoy texture name reference](https://raw
 ### From glslsandbox
 
 glslsandbox shaders are nativelly supported.
+ 
+# Interactive Shader Format support (version > 1.1.x)
+A subset of ISF support is implemented with restrictions:
+ * Only the first 3 parameters are displayed (but you can declare as much as you want)
+ * Only float parameters are supported
+ * IMG_PIXEL and IMG_NORM_PIXEL are supported
+ * Supported uniforms: PASSINDEX, RENDERSIZE, TIME, TIMEDELTA, DATE, FRAMEINDEX
+ * The isf_FragNormCoord convenience variable is supported
 
 # Recommended readings
  * https://www.shadertoy.com/
