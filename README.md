@@ -74,7 +74,7 @@ A subset of ISF support is implemented with restrictions:
  * supported uniforms: PASSINDEX, RENDERSIZE, TIME, TIMEDELTA, DATE, FRAMEINDEX
  * isf_FragNormCoord convenience variable is supported
  
-Check example file: https://github.com/mixvibes/remixvideo/blob/master/examples/interactiveshaderformat_stripes.glsl;
+Check [example](https://github.com/mixvibes/remixvideo/blob/master/examples/interactiveshaderformat_stripes.glsl).
 
 # Recommended readings
  * https://www.shadertoy.com/
