@@ -5,7 +5,7 @@ Remixvideo supports glsl shaders as generative media. It features:
  * GLSL fragment shader support
  * some audio related uniforms to react to audio features
  * macros to support [shadertoy](https://www.shadertoy.com/) and [glslsandbox](http://glslsandbox.com/) shaders
- * Basic parameter support based on [ISF specification](http://interactiveshaderformat.com) 
+ * basic parameter support based on [ISF specification](http://interactiveshaderformat.com) 
  
  Known issues:
   * images are flipped along y axis (fixed in version > 1.1.x)
@@ -68,11 +68,11 @@ glslsandbox shaders are nativelly supported.
  
 # Interactive Shader Format support (version > 1.1.x)
 A subset of ISF support is implemented with restrictions:
- * Only the first 3 parameters are displayed (but you can declare as much as you want)
- * Only float parameters are supported
+ * only the first 3 parameters are displayed (but you can declare as much as you want)
+ * only float parameters are supported
  * IMG_PIXEL and IMG_NORM_PIXEL are supported
- * Supported uniforms: PASSINDEX, RENDERSIZE, TIME, TIMEDELTA, DATE, FRAMEINDEX
- * The isf_FragNormCoord convenience variable is supported
+ * supported uniforms: PASSINDEX, RENDERSIZE, TIME, TIMEDELTA, DATE, FRAMEINDEX
+ * isf_FragNormCoord convenience variable is supported
 
 # Recommended readings
  * https://www.shadertoy.com/
@@ -85,14 +85,14 @@ A subset of ISF support is implemented with restrictions:
 You can add your own FX. 
 
 On macOS:
- * Go to /Users/XXX/Library/Group Containers/K22R73ZZ3Q.com.mixvibes.remixvideo
- * Create this folder hierarchy: Fxs/Video 
- * Place your shader in /Users/XXX/Library/Group Containers/K22R73ZZ3Q.com.mixvibes.remixvideo/Fxs/Video
+ * go to /Users/XXX/Library/Group Containers/K22R73ZZ3Q.com.mixvibes.remixvideo
+ * create this folder hierarchy: Fxs/Video 
+ * place your shader in /Users/XXX/Library/Group Containers/K22R73ZZ3Q.com.mixvibes.remixvideo/Fxs/Video
  
  On Windows:
- * Go to C:\Users\XXX\AppData\Roaming\Mixvibes 
- * Create this folder hierarchy: Fxs\Video 
- * Place your shader in C:\Users\XXX\AppData\Roaming\Mixvibes\Fxs\Video
+ * go to C:\Users\XXX\AppData\Roaming\Mixvibes 
+ * create this folder hierarchy: Fxs\Video 
+ * place your shader in C:\Users\XXX\AppData\Roaming\Mixvibes\Fxs\Video
 
 Fx shaders uniforms (check [example FX](https://github.com/mixvibes/remixvideo/blob/master/examples/FX-RED%20ALERT.glsl)):
  * uniform sampler2D textureA; // input texture
